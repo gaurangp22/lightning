@@ -1,12 +1,10 @@
 import React from 'react';
-import PfpGenerator from './components/PfpGenerator'; // Adjust the path if needed
-import ShiningPfpGenerator from './components/ShiningPfpGenerator';
+import PfpGenerator from './components/PfpGenerator';
 
 function App() {
   return (
     <div>
-      {/* <PfpGenerator /> */}
-      <ShiningPfpGenerator/>
+      <PfpGenerator />
     </div>
   );
 }
